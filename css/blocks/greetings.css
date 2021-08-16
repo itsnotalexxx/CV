@@ -5,7 +5,7 @@
     display: none;
     background-color: #222222;
     color: #fff;
-    padding: calc(15px + 25 * (100vw / 1920));
+    padding: calc(5px + 25 * (100vw / 1920));
 }
 
 .greetings__content {
@@ -17,6 +17,7 @@
     flex-direction: column;
     text-align: left;
     line-height: 1.2;
+    margin-top: calc(2px + 28 * (100vw / 1920));
     margin-left: calc(10px + 20 * (100vw / 1920));
 }
 

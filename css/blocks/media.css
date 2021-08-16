@@ -29,18 +29,19 @@
     }
 }
 
-@media (max-width: 767px) {
-    .aboutMe {
-        letter-spacing: normal;
-    }
-}
-
 @media (max-width: 658px) {
     .skillsWrapper,
     .myEducation,
     .myExpirience {
         flex-direction: column;
     }
+
+    .university p,
+    .school p,
+    .firstWork ul, 
+    .secondWork ul {
+        max-width: 100%;
+    } 
 
     .languageSkills,
     .university,
@@ -57,5 +58,27 @@
     .examSecond {
         margin-top: 20px;
         margin-left: 0;
+    }
+}
+
+@media (max-width: 429px) {
+    .personalDetails {
+        letter-spacing: normal;
+    }
+
+    .personalDetails table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 374px) {
+    .personalDetails table {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 340px) {
+    .personalDetails table {
+        font-size: 9px;
     }
 }
