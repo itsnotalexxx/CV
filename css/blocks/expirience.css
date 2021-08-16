@@ -1,0 +1,28 @@
+.expirience {
+    max-width: 100%;
+    height: auto;
+    background-color: #222222;
+    color: #fff;
+}
+
+.firstWork {
+    margin-right: calc(20px + 30 * (100vw / 1920));
+}
+
+.firstWork ul, 
+.secondWork ul {
+    max-width: calc(130px + 210 * (100vw / 1920));
+}
+
+.firstWork li,
+.secondWork li {
+    padding-bottom: calc(5px + 10 * (100vw / 1920));
+}
+
+.myExpirience {
+    display: flex;
+}
+
+.workBtn {
+    width: calc(200px + 180 * (100vw / 1920));
+}

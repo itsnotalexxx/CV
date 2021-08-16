@@ -1,0 +1,61 @@
+
+@media (max-width: 1440px) {
+    .subtitle {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .greetings {
+        display: flex;
+    }
+
+    .aboutMe_blocksPad {
+        margin-top: 30px;
+    }
+
+    .blocks {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sidebar,
+    .nav__list  {
+        display: none;
+    }
+
+    .content {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutMe {
+        letter-spacing: normal;
+    }
+}
+
+@media (max-width: 658px) {
+    .skillsWrapper,
+    .myEducation,
+    .myExpirience {
+        flex-direction: column;
+    }
+
+    .languageSkills,
+    .university,
+    .mWork {
+        margin-top: calc(10px + 15 * (100vw / 767));
+    }
+}
+
+@media (max-width: 575px) {
+    .examples {
+        flex-direction: column;
+        align-items: center;
+    }
+    .examSecond {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

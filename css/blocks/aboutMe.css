@@ -1,0 +1,22 @@
+.aboutMe {
+    max-width: 100%;
+    height: auto;
+    background-color: #222222;
+    color: #fff;
+}
+
+.personalDetails {
+    letter-spacing: calc(1px + 2 * (100vw / 1920));
+}
+
+.wtd1 {
+   padding-right: calc(1px + 29 * (100vw / 1920));
+}
+
+.wtd2 {
+    color: rgb(231, 189, 2);
+}
+
+.wtd3 {
+    padding-left: calc(2px + 28 * (100vw / 1920));
+}

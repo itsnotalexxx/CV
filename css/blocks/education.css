@@ -1,0 +1,24 @@
+.education {
+    max-width: 100%;
+    height: auto;
+    background-color: #222222;
+    color: #fff;
+}
+
+.education p {
+    margin-bottom: 40px;
+}
+
+.myEducation {
+    display: flex;
+    flex-direction: row;
+}
+
+.school {
+    margin-right: calc(20px + 30 * (100vw / 1920));
+}
+
+.university p,
+.school p {
+    max-width: calc(130px + 210 * (100vw / 1920));
+}

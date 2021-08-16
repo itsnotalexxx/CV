@@ -1,0 +1,24 @@
+.nav__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #181818;
+}
+
+.nav__list-item {
+    font-size: calc(14px + 6 * (100vw / 1920));
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: center;
+    padding: calc(15px + 15 * (100vw / 1920));
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.nav__list-item:hover {
+    background-color: rgb(231, 189, 2);
+    color: #000;
+}

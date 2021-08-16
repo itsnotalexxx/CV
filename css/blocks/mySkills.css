@@ -1,0 +1,32 @@
+.mySkills {
+    max-width: 100%;
+    height: auto;
+    background-color: #222222;
+    color: #fff;
+}
+
+.skillsWrapper {
+    margin-top: 30px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.profSkills {
+    margin-right: calc(20px + 30 * (100vw / 1920));
+}
+
+.profSkills h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(231, 189, 2);
+}
+
+.languageSkills h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(231, 189, 2);
+}
+
+.languageSkills table {
+    font-weight: bold;
+}

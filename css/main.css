@@ -1,0 +1,14 @@
+@import url(blocks/base.css);
+@import url(blocks/scrollBar.css);
+@import url(blocks/nav.css);
+@import url(blocks/content.css);
+@import url(blocks/sidebar.css);
+@import url(blocks/greetings.css);
+@import url(blocks/aboutMe.css);
+@import url(blocks/mySkills.css);
+@import url(blocks/education.css);
+@import url(blocks/portfolio.css);
+@import url(blocks/expirience.css);
+
+@import url(blocks/media.css);
+@import url(blocks/spoller.css)

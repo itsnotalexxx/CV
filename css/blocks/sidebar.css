@@ -1,0 +1,50 @@
+
+
+.mPhoto {
+    text-align: center;
+    
+}
+
+.mPhoto img {
+    margin: calc(5px + 15 * (100vw / 1920)) 0;
+    width: calc(100px + 150 * (100vw / 1920));
+    height: calc(100px + 150 * (100vw / 1920));
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.title {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background-color: #2c2c2c;
+    padding: 30px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.title h3 {
+    margin-top: 10px;
+    color: rgb(231, 189, 2);;
+}
+
+.social {
+    max-width: 100%;
+    height: 125px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.subtitle {
+    max-width: 100%;
+    height: 100%;
+    color: rgb(231, 189, 2);
+    padding: 30px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.subtitle h3 {
+    color: #fff;
+}
